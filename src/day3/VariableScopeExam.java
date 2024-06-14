@@ -21,10 +21,14 @@ public class VariableScopeExam {
     }
 
     //렉시컬 스코프란 변수의 유효 범위가 코드의 작성 위치에 결정된다.
+
+
+    //static block(초기화 블럭) -> 클래스가 JVM에 처음 로드될때 실행될 java클래스 내부의 명령문 블록
+    //생성자가 인스턴스 멤버를 초기화라는 것처럼, static 데이터(변수/상수)를 초기화
+    //생성자보다 먼저 순서에 할당됨
     {
         int anmos = 500;
         System.out.println("anmos = "+ anmos);
     }
-
 
 }
