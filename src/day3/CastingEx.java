@@ -28,6 +28,14 @@ public class CastingEx {
         byte y = 20;
         int result1 = (int) x + (int) y;
 
+        //상수 : float(4), double(8)
+        double result4 = 1.2f + 3.6;
 
+        //intvalue3에서 10을 할당
+        //double value3에 5.5 할당
+        //그리고 두 수를 더한 결과값을 result5에서 저장
+        int intvalue3 = 10;
+        double value3 = 5.5f;
+        int result5 = (int) (intvalue3 + value3);
     }
 }
