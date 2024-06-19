@@ -1,4 +1,4 @@
-package day5.section1;
+package day5_6.section1;
 
 public class IfDiceExample {
 	public static void main(String[] args) {

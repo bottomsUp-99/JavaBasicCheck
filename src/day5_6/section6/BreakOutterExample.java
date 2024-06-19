@@ -1,4 +1,4 @@
-package day5.section6;
+package day5_6.section6;
 
 public class BreakOutterExample {
 	public static void main(String[] args) throws Exception {

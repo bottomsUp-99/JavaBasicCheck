@@ -1,4 +1,4 @@
-package day5.section1;
+package day5_6.section1;
 
 import java.io.BufferedReader;
 import java.io.IOException;
