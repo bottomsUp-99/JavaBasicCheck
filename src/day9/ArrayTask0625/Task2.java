@@ -60,13 +60,14 @@ public class Task2 {
     //1.배열에 알파벳 입력
     for (int i = 0; i < alphabet.length; i++) {
       for (int j = 0; j < alphabet[i].length; j++) {
-        alphabet[i][j] = (char) (start + i + j);
+        alphabet[i][j] = (char) (start + j);
       }
+      start += 5;
     }
     //2.원본 배열 출력
     System.out.println("\t\t\t\t\t원본배열");
     for (int i = 0; i < 34; i++) {
-      System.out.print("*");
+      System.out.print("=");
     }
     System.out.println();
     for (int i = 0; i < alphabet.length; i++) {
@@ -85,7 +86,7 @@ public class Task2 {
     System.out.println();
     System.out.println("\t\t\t\t\t수정된 배열");
     for (int i = 0; i < 34; i++) {
-      System.out.print("*");
+      System.out.print("=");
     }
     System.out.println();
     for (int i = 0; i < alphabet.length; i++) {
