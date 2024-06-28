@@ -40,7 +40,7 @@ public class Drink {
     this.count = count;
   }
 
-  public static void printTitle() {
+  static void printTitle() {
     System.out.println("상품명\t\t단가\t\t\t수량\t\t금액");
   }
 

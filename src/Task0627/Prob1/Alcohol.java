@@ -15,10 +15,10 @@ public class Alcohol extends Drink {
     this.alcper = alcper;
   }
 
-
-  public static void printTitle() {
+  static void printTitle() {
     System.out.println("상품명(도수[%])\t\t단가\t\t\t수량\t\t\t금액");
   }
+
 
   void printData() {
     System.out.println(
