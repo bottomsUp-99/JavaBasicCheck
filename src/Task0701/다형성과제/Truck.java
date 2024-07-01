@@ -1,4 +1,4 @@
-package Task0701;
+package Task0701.다형성과제;
 
 public class Truck extends Wheeler {
 
