@@ -45,7 +45,7 @@ public class JdbcEx {
       System.out.println(con);
       pstmt = con.prepareStatement(query);
 
-      //pstmt.setInt(2, 1); 빨간줄이라 잠깐 슬래시 처리
+      pstmt.setInt(1, 1); //빨간줄이라 잠깐 슬래시 처리
 
       result = pstmt.executeUpdate();
       if (result == 1) {
