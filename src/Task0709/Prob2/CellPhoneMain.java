@@ -1,6 +1,6 @@
 package Task0709.Prob2;
 
-public class CellPhoneMain {
+public class CellPhoneMain {//자바 중요 API-제너릭 24페이지부터 참고해서 다시 리팩토링 ㄱㄱ
 
   public static void main(String[] args) {
     CellPhone myPhone = new CellPhone("SCH-600");

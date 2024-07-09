@@ -11,10 +11,10 @@ public class CellPhone {
 
   void call(int time) {
     try {
-      System.out.printf("통화시간 : %d분\n", time);
       if (time < 0) {
         throw new IllegalArgumentException();
       }
+      System.out.printf("통화시간 : %d분\n", time);
       if ((getBattery() - time * 0.5) < 0) {
         setBattery(0);
       } else {
@@ -28,10 +28,10 @@ public class CellPhone {
 
   void charge(int time) {
     try {
-      System.out.printf("충전시간 : %d분\n", time);
       if (time < 0) {
         throw new IllegalArgumentException();
       }
+      System.out.printf("충전시간 : %d분\n", time);
       if ((getBattery() + time * 3) > 100) {
         setBattery(100);
       } else {

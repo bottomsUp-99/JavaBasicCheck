@@ -14,6 +14,7 @@ public class Main {
     int result = 0;
     result = convert(str);
     System.out.printf("변환된 숫자는 %d 입니다.", result);
+    //자바 중요 API-제너릭 24페이지부터 참고해서 다시 리팩토링 ㄱㄱ
   }
 
   //필요할 경우 다음의 메서드 선언부분(메서드 시그너처)을 수정하시기 바랍니다.
