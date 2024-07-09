@@ -2,6 +2,10 @@ package goodMorningTest.test0627.클래스.Prob20;
 
 public class Account {
 
+  // Account 클래스 리팩토링
+  // 사용자 정의 예외 클래스를 생성합니다.
+  // 잔고가 부족합니다. 메세지를 출력하게끔
+  //InsufficientExceoption 예외 클래스로 처리.
   private String accountNumber;
   private String accountHolder;
   private int balance;

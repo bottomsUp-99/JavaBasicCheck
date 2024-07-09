@@ -12,7 +12,7 @@ public class CellPhone {
   void call(int time) {
     try {
       if (time < 0) {
-        throw new IllegalArgumentException();
+        throw new IllegalArgumentException("통화시간입력오류");
       }
       System.out.printf("통화시간 : %d분\n", time);
       if ((getBattery() - time * 0.5) < 0) {
@@ -21,7 +21,7 @@ public class CellPhone {
         setBattery(getBattery() - time * 0.5);
       }
     } catch (IllegalArgumentException e) {
-      System.out.println("통화시간입력오류");
+      System.err.println(e.getMessage());
     }
   }
 
@@ -29,7 +29,7 @@ public class CellPhone {
   void charge(int time) {
     try {
       if (time < 0) {
-        throw new IllegalArgumentException();
+        throw new IllegalArgumentException("충전시간입력오류");
       }
       System.out.printf("충전시간 : %d분\n", time);
       if ((getBattery() + time * 3) > 100) {
@@ -38,7 +38,7 @@ public class CellPhone {
         setBattery(getBattery() + time * 3);
       }
     } catch (IllegalArgumentException e) {
-      System.out.println("충전시간입력오류");
+      System.err.println(e.getMessage());
     }
   }
 
