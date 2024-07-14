@@ -88,7 +88,7 @@ public class HomeWorkBasic {
     System.out.println("5-2번 : double size = 0.25;");
     System.out.println("5-3번 : double total = (double) height + size;");
     System.out.println("5-4번 : char c = 'a';");
-    System.out.println("5-5번 : String name = \"이주환\"");
+    System.out.println("5-5번 : String name = \"이주환\";");
   }
 
   public static void problem_6() {
